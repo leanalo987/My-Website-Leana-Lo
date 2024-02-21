@@ -13,7 +13,9 @@ h1, h2, h3 {
 h2{
   color: #404042;
   font-family: "Libre Baskerville", serif;
+  text-align: center;
   padding: 0 80px;
+  margin: 60px;
 }
 
 p {
@@ -26,7 +28,7 @@ p {
 }
 
 .banner {
-  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/Islander.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/Islander.JPG');
   background-size: cover;
   background-position: center;
   padding: 150px 0;
@@ -81,10 +83,10 @@ p {
 }
 
 .footer {
-  background: #31626b;
+  background: black;
   text-align: center;
   padding: 10px;
-  margin: 20px;
+  margin-top: 60px;
 }
 
 .footer p {
@@ -94,12 +96,11 @@ p {
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 15px;
+  grid-gap: 40px;
+  margin: 60px;
 }
 
 @media (max-width: 800px) {
   .cards {
     grid-template-columns: 1fr;
   }
-
-
