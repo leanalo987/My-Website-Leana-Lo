@@ -1,0 +1,105 @@
+/* Write some CSS below */
+body {
+  font-family: "Libre Baskerville", serif;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: #404042;
+  font-family: "Libre Baskerville", serif;
+}
+
+
+h2{
+  color: #404042;
+  font-family: "Libre Baskerville", serif;
+  padding: 0 80px;
+}
+
+p {
+  color: #404042;
+  opacity: .8;
+}
+
+.container {
+  margin: auto;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/Islander.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 60px;
+  margin: 0;
+}
+
+.banner p {
+  color: white;
+  font-size: 38px;
+}
+
+.button-blue {
+  background-color: #71c9c8;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 50px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.button-blue:hover {
+  background-color: #a1ede1;
+  color: black;
+}
+
+.card-white {
+  background: white;
+  box-shadow: 5px 10px 10px #969190;
+  border-radius: 6px;
+  width: 300px;
+  text-align: center;
+  padding: 24px;
+  margin: auto;
+}
+
+.card-white img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.card-white h3 {
+  margin-bottom: 0;
+}
+
+.footer {
+  background: #31626b;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+.footer p {
+  color: white;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+
