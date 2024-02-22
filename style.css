@@ -111,7 +111,6 @@ p {
 
 .button-blue:hover {
   background-color: darkblue;
-  color: white;
 }
 
 h4 {
@@ -142,7 +141,6 @@ p {
   text-align: center;
   color: black;
   font-size: 40px;
-  text-align: center;
 }
 
 .Photo1 {
@@ -171,3 +169,4 @@ margin: 5px;
   .cards {
     grid-template-columns: 1fr;
   }
+}
